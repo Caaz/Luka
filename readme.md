@@ -1,3 +1,3 @@
-# 2FA Bot
+# Luka 6
 
-This bot was entirely made by chatGPT
+A continuation of an old IRC bot.
