@@ -1,0 +1,15 @@
+{
+  "name": "mef-bot",
+  "version": "1.0.0",
+  "description": "A bot for retrieving 2fa codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caaz",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "steam-totp": "^2.1.2"
+  }
+}
