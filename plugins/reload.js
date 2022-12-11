@@ -3,7 +3,7 @@ const { Events } = require('discord.js');
 
 module.exports = function (client, config) {
     client.on(Events.MessageCreate, message => {
-        if (message.content === '!reload' && message.author.id == config.userId) {
+        if (message.content === `${config.commandPrefix}reload` && message.author.id == config.userId) {
             // Do a Git pull to check for updates
             const gitPull = spawn('git', ['pull']);
 

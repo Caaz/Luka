@@ -3,7 +3,7 @@ const https = require('https');
 
 module.exports = function (client, config) {
     client.on(Events.MessageCreate, message => {
-        let match = message.content.match(/^\!xkcd( (\d+))?/);
+        let match = message.content.match(new RegExp(`^${config.commandPrefix}xkcd( (\\d+))?`));
         if (match) {
             let comicId = match[2] ? `${match[2]}/` : '';
             https.get(`https://xkcd.com/${comicId}info.0.json`, (response) => {
