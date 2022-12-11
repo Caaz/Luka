@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.7.1",
-    "steam-totp": "^2.1.2"
+    "steam-totp": "^2.1.2",
+    "weather-js": "^2.0.0"
   },
   "devDependencies": {
     "xo": "^0.53.1"
