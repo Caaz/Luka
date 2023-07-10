@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.7.1",
+    "m3o": "^1.0.1732",
+    "openai": "^3.2.1",
     "steam-totp": "^2.1.2",
     "weather-js": "^2.0.0"
   },
